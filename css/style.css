@@ -72,6 +72,27 @@ body{
 .description{
     font-size: 1.5rem;
     margin-bottom: 20px;
+    text-align: center;
+}
+
+.dedicatoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.dedicatoria__nombre{
+    font-size: 2rem;
+    font-weight: 900;
+    color: #39c6d6;
+    text-shadow: 0 0 12px #39c6d6;
+}
+
+.dedicatoria__fecha{
+    font-size: 1.1rem;
+    opacity: .8;
+    letter-spacing: 1px;
 }
 
 .button a{
